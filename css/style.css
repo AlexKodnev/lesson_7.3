@@ -1,0 +1,48 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: Lato;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 30px;
+}
+h6 {
+	color: #1e212c;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 0 0 8px 0;
+}
+h1 {
+	color: #1e212c;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59px;
+	margin: 0 0 40px 0;
+}
+ul {
+	max-width: 390px;
+	max-height: 294px;
+	margin: 0 0 48px 0;
+}
+.list li {
+	color: #424551;
+	font-size: 16px;
+	line-height: 25px;
+	background: url("../img/list.png") 0 5px / auto no-repeat;
+	padding: 0 0 12px 32px;
+}
+.button {
+	text-align: center;
+	color: white;
+	width: 161px;
+	height: 44px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	padding: 15px 0 0 0;
+}
